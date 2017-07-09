@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 // 为IndexController控制器注册路由
 Route::resource('index','IndexController');
+Route::get('/user/showprofile/{id}','UserController@showProfile');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
