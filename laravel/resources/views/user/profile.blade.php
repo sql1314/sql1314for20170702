@@ -8,6 +8,6 @@
     </script>
 </head>
 <body>
-@yield('content')
+@yield('user')
 </body>
 </html>
