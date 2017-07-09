@@ -8,6 +8,6 @@
     </script>
 </head>
 <body>
-@yield('user')
+{{$user}}
 </body>
 </html>
